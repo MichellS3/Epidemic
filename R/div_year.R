@@ -15,3 +15,5 @@ div_year<-function(x){
   cases_acum<-sum(Table01$Casos)
   cases_acum
 }
+
+
