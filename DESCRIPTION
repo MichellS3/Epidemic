@@ -12,10 +12,6 @@ Description: This is a demo package from obtained total cases by
     of a disease ("Malaria", "Dengue"," Leishmaniasis",
     "Fiebre Chikungunya ", "Chagas", "Zika", "Fiebre Amarilla").
 =======
-Author: Shirley Salcan; Jonier Merizalde 
-Maintainer: The package maintainer <michellsalcan@hotmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
 License: There's no license
 >>>>>>> 52f96ba45fe69905bfabb7af26d960a6273335ba
 Encoding: UTF-8
