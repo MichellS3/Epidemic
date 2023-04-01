@@ -16,7 +16,7 @@ Author: Shirley Salcan; Jonier Merizalde
 Maintainer: The package maintainer <michellsalcan@hotmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: There's no license
 >>>>>>> 52f96ba45fe69905bfabb7af26d960a6273335ba
 Encoding: UTF-8
 LazyData: true
