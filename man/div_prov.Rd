@@ -2,13 +2,19 @@
 % Please edit documentation in R/div_prov.R
 \name{div_prov}
 \alias{div_prov}
-\title{Title}
+\title{Amount instance of disease by province}
 \usage{
 div_prov(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{vector of length three (illness or disease, province, year)}
+}
+\value{
+value with total cases by province and year
 }
 \description{
-Title
+Amount instance of disease by province
+}
+\examples{
+div_prov("Dengue","ORELLANA", 2018)
 }

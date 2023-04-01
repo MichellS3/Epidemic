@@ -1,11 +1,14 @@
-#' Title
+#' Amount instance of disease by province
 #'
-#' @param x
+#' @param x vector of length three (illness or disease, province, year)
 #'
-#' @return
-#' @export
+#' @return value with total cases by province and year
+#' @import dplyr
 #'
 #' @examples
+#' div_prov("Dengue","ORELLANA", 2018)
+
+
 div_prov<-function(x){
   name<-x[1]
   prov<-x[2]
@@ -14,7 +17,8 @@ div_prov<-function(x){
     Table01<- Table %>% filter(Provincia==prov, EVENTOS==name)
     cases_acum<-sum(Table01$Casos)
   }else{
-    Table01<- Table %>% filter(Año==year,Provincia==prov, EVENTOS==name,)
+    Table01<- Table %>% filter(Año==year,Provincia==prov, EVENTOS==name)
     cases_acum<-sum(Table01$Casos)
   }
 }
+
