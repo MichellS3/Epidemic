@@ -7,10 +7,10 @@
 #'
 #' @examples
 #' For this is necessary a data frame with an specifically disease and year.
-#' div_week(54)
+#' div_week(53)
 
 div_week<-function(SEe){
-  Table01 <- Tablex %>% filter (SE==SEe)
+  Table01 <- Table %>% filter (SE==SEe)
   cases_acum<-sum(Table01$Casos)
   cases_acum
 }

@@ -6,7 +6,8 @@
 #' @import dplyr
 #'
 #' @examples
-#' div_year("Malaria",2016)
+#' z=c("Malaria",2016)
+#' div_year(z)
 
 div_year<-function(x){
   name<-x[1]

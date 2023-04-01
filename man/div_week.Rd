@@ -17,5 +17,5 @@ Principal measures of disease cases by epidemiological week
 }
 \examples{
 For this is necessary a data frame with an specifically disease and year.
-div_week(54)
+div_week(53)
 }

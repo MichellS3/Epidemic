@@ -16,5 +16,6 @@ value with total cases by province and year
 Amount instance of disease by province
 }
 \examples{
-div_prov("Dengue","ORELLANA", 2018)
+z=c("Dengue","ORELLANA", 2018)
+div_prov(z)
 }

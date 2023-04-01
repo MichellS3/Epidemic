@@ -16,5 +16,6 @@ data frame with total cases by year
 Amount instance of disease by year
 }
 \examples{
-div_year("Malaria",2016)
+z=c("Malaria",2016)
+div_year(z)
 }

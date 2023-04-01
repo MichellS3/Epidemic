@@ -13,9 +13,21 @@
     <loc>/reference/dev.html</loc>
   </url>
   <url>
+    <loc>/reference/div_prov.html</loc>
+  </url>
+  <url>
+    <loc>/reference/div_week.html</loc>
+  </url>
+  <url>
+    <loc>/reference/div_year.html</loc>
+  </url>
+  <url>
     <loc>/reference/hello.html</loc>
   </url>
   <url>
     <loc>/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/plot_diss.html</loc>
   </url>
 </urlset>

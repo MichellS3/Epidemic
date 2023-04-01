@@ -6,8 +6,8 @@
 #' @import dplyr
 #'
 #' @examples
-#' div_prov("Dengue","ORELLANA", 2018)
-
+#' z=c("Dengue","ORELLANA", 2018)
+#' div_prov(z)
 
 div_prov<-function(x){
   name<-x[1]
@@ -20,5 +20,7 @@ div_prov<-function(x){
     Table01<- Table %>% filter(Año==year,Provincia==prov, EVENTOS==name)
     cases_acum<-sum(Table01$Casos)
   }
+  cases_acum
 }
-
+z=c("Dengue","ORELLANA",2016)
+div_prov(z)
