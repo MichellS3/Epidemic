@@ -1,18 +1,25 @@
-# Epidemic
-What the Package Does (Title Case)
+# Epidemic: a demo package
+This is a demo package from obtained total cases by various features such; illness, year, epidemiololgical week, provinces, cantons and parishes.
 
-residualR: a demo package
-===============================================
-
-This is a demo package from R4DS tutorial.
-
+Any suggestion do not hesitate to contact at michellsalcan@hotmail.com or jonierkmerizalde99@gmail.com
 
 Installation and loading
-------------------------
 
--   Install the latest version from [GitHub](https://github.com/gualapuromoises/residualR) as follow:
+Install the latest version from GitHub as follow:
 
- r
-# Install
+## Install
 if(!require(devtools)) install.packages("devtools")
-devtools::install_github("gualapuromoises/residualR")
+
+devtools::install_github("MichellS3/Epidemic")
+
+Distribution
+
+library(Epidemic)
+
+#> Loading required package: dplyr
+
+## Create some data format
+# :::::::::::::::::::::::::::::::::::::::::::::::::::
+Table<-data.frame(...)
+
+View the example data in data file
